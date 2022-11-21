@@ -101,7 +101,7 @@ class Bot_Stoch_RSI_EMA:
 
         # Start Passivbot
         if df.Buy.values:
-            print(colored(f"Started Long on {self.symbol}...", "blue"))
+            print(colored(f"Started Long on {self.symbol}...", "green"))
             startlong = subprocess.Popen(
                 [
                     "python3",
